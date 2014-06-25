@@ -3,8 +3,9 @@
 APP_URL=https://raw.githubusercontent.com/NYC-DOE/flask-examples/master/simple/app.py
 
 cd ~
-mkdir simple
+mkdir -p simple
 cd simple
-curl -s $APP_URL >> app.py
+touch app.py
+curl -s $APP_URL > app.py
 
 echo "To run this app, type: 'python simple/app.py'"
