@@ -1,4 +1,4 @@
-#!/usr/bin/ sh
+#!/usr/bin/env bash
 
 APP_URL=https://raw.githubusercontent.com/NYC-DOE/flask-examples/master/simple/app.py
 
