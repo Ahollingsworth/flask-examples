@@ -2,8 +2,11 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 @app.route("/")
-def hello():
-    return render_template('index.html')
+@app.route("/<name>")
+def hello(name=None):
+    if name == None:
+        name = "Robot"
+    return render_template('index.html', name=name)
 
 if __name__ == "__main__":
     print("To view your site, click the 'preview' menu and choose port 3000")
