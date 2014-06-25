@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-APP_NAME=routes
+APP_NAME=templates
 APP_URL="https://raw.githubusercontent.com/NYC-DOE/flask-examples/master/$APP_NAME/app.py"
 INDEX_URL="https://raw.githubusercontent.com/NYC-DOE/flask-examples/master/$APP_NAME/templates/index.html"
 
