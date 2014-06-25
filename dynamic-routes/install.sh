@@ -8,7 +8,7 @@ cd ~
 mkdir -p $APP_NAME
 cd $APP_NAME
 [ -f app.py ] && rm app.py
-curl $APP_URL > app.py
+curl -s $APP_URL > app.py
 mkdir -p templates
 [ -f templates/index.html ] && rm -rf templates/index.html
 curl -s $INDEX_URL > templates/index.html
