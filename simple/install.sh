@@ -1,6 +1,6 @@
 #!/usr/bin/ sh
 
-APP_URL=http://google.com/
+APP_URL=https://raw.githubusercontent.com/NYC-DOE/flask-examples/master/simple/app.py
 
 cd ~
 mkdir simple
