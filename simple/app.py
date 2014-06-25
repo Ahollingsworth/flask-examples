@@ -6,4 +6,5 @@ def hello():
     return "Hello world!"
 
 if __name__ == "__main__":
-    app.run()
+    print("To view your site, click the 'preview' menu and choose port 3000")
+    app.run(host='0.0.0.0', port=3000)
