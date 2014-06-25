@@ -11,8 +11,9 @@ cd $APP_NAME
 [ -f app.py ] && rm app.py
 curl -s $APP_URL > app.py
 mkdir -p templates
-[ -f templates/index.html ] && rm -rf templates/index.html
+[ -f templates/index.html ] && rm templates/index.html
 curl -s $INDEX_URL > templates/index.html
+[ -f templates/me ] && rm templates/me
 curl -s $ME_URL > templates/me.html
 
 echo "To run this app, type: 'cd && python $APP_NAME/app.py'"
