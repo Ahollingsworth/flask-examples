@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 APP_NAME=templates
-APP_URL="https://raw.githubusercontent.com/NYC-DOE/flask-examples/master/$APP_NAME/"
-INDEX_URL="https://raw.githubusercontent.com/NYC-DOE/flask-examples/master/$APP_NAME/templates/index.html"
+APP_URL=https://raw.githubusercontent.com/NYC-DOE/flask-examples/master/$APP_NAME
+INDEX_URL=https://raw.githubusercontent.com/NYC-DOE/flask-examples/master/$APP_NAME/templates/index.html
 
 cd ~
 mkdir -p $APP_NAME
