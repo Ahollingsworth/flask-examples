@@ -3,7 +3,7 @@
 APP_URL=https://raw.githubusercontent.com/NYC-DOE/flask-examples/master/simple
 APP_NAME=simple
 
-echo "the $1 eats a $2 every time there is a $3"
+echo "xthe $1 eats a $2 every time there is a $3"
 
 cd ~
 mkdir -p $APP_NAME
