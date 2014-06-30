@@ -1,0 +1,21 @@
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <title>My App</title>
+</head>
+<body>
+  <h1>Upload a file</h1>
+
+  <form action='/' method='post' enctype='multipart/form-data'>
+    Select an image: <input type="file" name="file" />
+    <br>
+    <input type="submit" value="Upload" />
+  </form>
+
+  {% if show_image %}
+    <h3>Uploaded image:</h3>
+    <img src="{{ url_for('static', filename='image.jpg') }}" />
+  {% endif %}
+</body>
+</html>
