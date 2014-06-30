@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-APP_URL=https://raw.githubusercontent.com/NYC-DOE/flask-examples/master/simple
 APP_NAME=simple
+APP_URL=https://raw.githubusercontent.com/NYC-DOE/flask-examples/master/$APP_NAME
 
 cd ~
 mkdir -p $APP_NAME
