@@ -21,6 +21,6 @@ mkdir -p static
 [ -f static/island.jpg ] && rm static/island.jpg
 
 curl -s $FOOTBALL_URL > static/football.jpg
-curl -s $ISLAND_URL > static/football.jpg
+curl -s $ISLAND_URL > static/island.jpg
 
 echo "To run this app, type: 'cd && python $APP_NAME/$APP_NAME.py'"
