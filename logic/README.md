@@ -7,3 +7,8 @@ templates. What's different?
 
  * What can you change to make the web page show something different
    without changing the template itself?
+
+### Teacher guide
+
+  * Here we introduce the use of conditional logic (if, else)
+    in the template. See the notes in the python file for more.

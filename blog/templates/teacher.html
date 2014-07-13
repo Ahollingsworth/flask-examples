@@ -1,0 +1,36 @@
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <title>My Blog</title>
+</head>
+<body>
+  <h1>Add a post</h1>
+
+  <form action='/' method='post'>
+    Your name:
+    <input type="text" name="your_name" />
+    <br>
+    Your post:
+    <input type="text" name="blog_post" />
+    <br>
+    <input type="submit" value="Post" />
+  </form>
+
+  <h2>Posts:</h2>
+
+  <ul>
+    <!-- loop through each of the items in the `all_posts` array,
+         naming it `post` each time -->
+    {% for post in all_posts %}
+
+      <!-- this snippet will be repeated once for each item in the
+           `all_posts` array.
+           The `post` variable will take on the value of each
+           item in the array, one at a time. -->
+      <li><b>{{post.name}}</b> said: {{post.text}}</li>
+
+    {% endfor %}
+  </ul>
+</body>
+</html>
