@@ -4,6 +4,7 @@ APP_NAME=blog-persist
 APP_URL=https://raw.githubusercontent.com/NYC-DOE/flask-examples/master/$APP_NAME
 INDEX_URL=https://raw.githubusercontent.com/NYC-DOE/flask-examples/master/$APP_NAME/templates/index.html
 
+
 cd ~
 mkdir -p $APP_NAME
 cd $APP_NAME

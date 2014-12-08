@@ -7,6 +7,8 @@
   * dynamic-routes: `curl -sL http://bit.ly/dynamic-routes-nyc | bash`
   * forms: `curl -sL http://bit.ly/forms-nyc | bash`
   * logic: `curl -sL http://bit.ly/logic-nyc | bash`
+  * logic-app `curl -sL http://bit.ly/logic-template-nyc | bash`
+  * logic-template `curl -sL http://bit.ly/logic-app-nyc | bash`
   * static: `curl -sL http://bit.ly/static-nyc | bash`
   * uploads: `curl -sL http://bit.ly/uploads-nyc | bash`
   * blog: `curl -sL http://bit.ly/blog-nyc | bash`
