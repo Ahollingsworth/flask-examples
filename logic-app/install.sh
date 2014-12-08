@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-APP_NAME=logic
+APP_NAME=logic-app
 APP_URL=https://raw.githubusercontent.com/NYC-DOE/flask-examples/master/$APP_NAME
 INDEX_URL=https://raw.githubusercontent.com/NYC-DOE/flask-examples/master/$APP_NAME/templates/index.html
 
