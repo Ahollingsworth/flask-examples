@@ -12,7 +12,8 @@
   * static: `curl -sL http://bit.ly/static-nyc | bash`
   * uploads: `curl -sL http://bit.ly/uploads-nyc | bash`
   * blog: `curl -sL http://bit.ly/blog-nyc | bash`
- 
+  * blog-persist: `curl -sL http://bit.ly/blog-persist-nyc | bash`
+
 ## Teacher guides
 
 Each directory in this git repository has its own README file with additional info on the
